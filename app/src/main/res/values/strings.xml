@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Test App</string>
+    <string name="some_error_occurred">Some error occurred</string>
+</resources>

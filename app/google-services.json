@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "334093170690",
+    "project_id": "empp-388a5",
+    "storage_bucket": "empp-388a5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334093170690:android:ee8f76199ceca6dd058f1b",
+        "android_client_info": {
+          "package_name": "com.test.emp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKPWinNxfsQX-JfY4fC7cYiWRoLS5Cfls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

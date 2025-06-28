@@ -1,0 +1,25 @@
+buildscript {
+    ext {
+        kotlin_version = '1.8.10'
+        compose_ui_version = '1.4.3'
+    }
+}
+
+buildscript {
+    repositories {
+        google()  // Google's Maven repository
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.3.0'
+        classpath 'com.google.gms:google-services:4.4.0'
+        classpath "io.realm:realm-gradle-plugin:10.11.0"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.38.1'
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

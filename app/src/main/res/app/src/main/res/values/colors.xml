@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#6200EA</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#19173D</color>
+
+    <color name="gradient_border">#00C6FB</color>
+    <color name="gradient_border_end">#005BEA</color>
+</resources>
